@@ -12,22 +12,24 @@ function SearchItemList(props) {
         <input type="radio" id="stamina" name="statButton" value="purple" onClick = {() => props.colorChanger("purple") } />
 
         <label>Strength</label>
-        <input type="radio" id="strength" name="statButton" value="red" onClick = {() => props.colorChanger("strength") } />
+        <input type="radio" id="strength" name="statButton" value="red" onClick = {() => props.colorChanger("red") } />
 
         <label>Dexterity</label>
-        <input type="radio" id="dexterity" name="statButton" value="green" onClick = {() => props.colorChanger("dexterity") } />
+        <input type="radio" id="dexterity" name="statButton" value="green" onClick = {() => props.colorChanger("green") } />
 
         <label>Intelligence</label>
-        <input type="radio" id="intelligence" name="statButton" value="blue" onClick = {() => props.colorChanger("intelligence") } />
+        <input type="radio" id="intelligence" name="statButton" value="blue" onClick = {() => props.colorChanger("blue") } />
 
         <label>Wisdom</label>
-        <input type="radio" id="wisdom" name="statButton" value="yellow" onClick = {() => props.colorChanger("wisdom") } />
+        <input type="radio" id="wisdom" name="statButton" value="yellow" onClick = {() => props.colorChanger("yellow") } />
         
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-        </ul>
+        <div className='SearchListResults'>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
       </div>
     </React.Fragment>
   )

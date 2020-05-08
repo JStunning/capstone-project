@@ -92,3 +92,18 @@ body {
 .About {
   margin: 0 5% 0 5%;
 }
+
+.SearchListResults {
+  width: 475px;
+  height: 300px;
+  background-color: chartreuse;
+  margin: 10% 0 0 20%;
+}
+
+.SearchListResults ul {
+  padding-top: 5%;
+}
+
+.SearchListResults li {
+  margin: 5%;
+}
