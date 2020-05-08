@@ -3,7 +3,6 @@ import './App.css';
 import Header from './Header';
 import ItemListControl from './ItemListControl'
 import StatCalculator from './StatCalculator'
-import About from './About'
 
 
 let state = {
@@ -33,7 +32,6 @@ function App() {
         <ItemListControl colorChanger={onRadioButtonChangeHandler}/>
         <StatCalculator />
       </div>
-      <About />
     </>
   );
 }
