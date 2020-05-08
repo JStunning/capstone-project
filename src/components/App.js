@@ -3,35 +3,37 @@ import './App.css';
 import Header from './Header';
 import ItemListControl from './ItemListControl'
 import StatCalculator from './StatCalculator'
+import About from './About'
 
 
 let state = {
   color: 'orange'
 }
 
-const onRadioButtonChangeHandler = () => {
-  state.color = 'blue'
-  setStateColor();
+const onRadioButtonChangeHandler = (color) => {
+  ChangeBackground(color)
 };
 
-const setStateColor = () => {
-  return state.color;
+let styleObj = {
+  background: 'red'
 }
 
-let styleObject = {
-  background: setStateColor()
+const ChangeBackground = (color) => {
+  console.log(color)
+  return {
+    background: color
+  }
 }
-
-console.log("styleobj",styleObject.background)
 
 function App() {
   return (
     <>
       <Header />
-      <div className="container" style={styleObject}>
+      <div className="container" style={onRadioButtonChangeHandler()}>
         <ItemListControl colorChanger={onRadioButtonChangeHandler}/>
         <StatCalculator />
       </div>
+      <About />
     </>
   );
 }

@@ -40,6 +40,7 @@ body {
   align-content: center;
   padding: 3% 5px 1.4% 5px;
   flex-direction: column;
+  background: azure;
 }
 
 .container .SearchItemList {

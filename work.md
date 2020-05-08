@@ -12,3 +12,7 @@
 12:00 Lunch time
 1:00 Gonna get styling and backgrounds looking way better, align boxes
 1:45 Fix radio buttons
+2:15 Making radio buttons change background color
+2:45 Still working on background changing via radio buttons
+3:15 Still working on it, feel like I am so close
+3:50 Working on About page because buttons are not working right and don't want to spend all day on them

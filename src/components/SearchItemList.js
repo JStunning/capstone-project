@@ -9,7 +9,7 @@ function SearchItemList(props) {
         <h2>Search Item List</h2>
 
         <label>Stamina</label>
-        <input type="radio" id="stamina" name="statButton" value="purple" onClick = {() => props.colorChanger("stamina") } />
+        <input type="radio" id="stamina" name="statButton" value="purple" onClick = {() => props.colorChanger("purple") } />
 
         <label>Strength</label>
         <input type="radio" id="strength" name="statButton" value="red" onClick = {() => props.colorChanger("strength") } />
