@@ -9,13 +9,13 @@ let state = {
   color: 'orange'
 }
 
-const onRadioButtonChangeHandler = (color) => {
-  ChangeBackground(color)
+const onRadioButtonChangeHandler = () => {
+  document.querySelector("body").style.background = "red"
 };
 
-let styleObj = {
-  background: 'red'
-}
+// let styleObj = {
+//   document.querySelector("body").style.background = "red"
+// }
 
 const ChangeBackground = (color) => {
   console.log(color)
