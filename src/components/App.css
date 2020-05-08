@@ -36,9 +36,49 @@ body {
 .container {
   display: flex;
   background-color: orange;
-  padding-top: 5%;
   justify-content: center;
   align-content: center;
-  gap: 50px;
+  padding: 3% 5px 5% 5px;
+  flex-direction: column;
 }
 
+.container .SearchItemList {
+  margin: 0 1% 0 5%;
+  background-color: blue;
+}
+
+.container .UserItemList {
+  margin: 0 5% 0 1%;
+  background-color: blue;
+  text-align: left;
+}
+
+.container .StatCalculator {
+  margin: 0 5% 0 5%;
+  background-color: blue;
+
+}
+
+.ItemLists {
+  background-color: blueviolet;
+  display: flex;
+}
+
+.ItemLists .SearchItemList {
+  flex-grow: 5;
+}
+
+.ItemLists .UserItemList {
+  margin: 0 5% 0 5%;
+  background-color: blue;
+  flex-grow: 10;
+}
+
+.StatCalculator ul {
+  display: flex;
+}
+
+.StatCalculator li {
+  margin: 0 8% 0 8%;
+  list-style: none;
+}

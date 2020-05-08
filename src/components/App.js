@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <ItemListControl />
+        <ItemListControl /><br />
         <StatCalculator />
       </div>
     </>

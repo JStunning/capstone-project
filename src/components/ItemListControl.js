@@ -9,16 +9,17 @@ class ItemListControl extends React.Component {
   }
 
   setVisibleComponent = () => {
+    // const containerDiv = document.querySelector('.container');
+    // const card = newElement('div', {class: 'card'})
+    // containerDiv.appendChild(card);
     return (
-      <>
-      <div class='container'></div>
+      <div className='ItemLists'>
         <SearchItemList />
         <UserItemList />
-        {/* <NewElement /> */}
-      </>
+      </div>
     )
-    
   }
+
 
   render(){
     let currentView = this.setVisibleComponent();
