@@ -7,19 +7,19 @@ function SearchItemList() {
         <h2>Search Item List</h2>
 
         <label for="stamina">Stamina</label>
-        <input type="radio" id="stamina" name="stamina" value="stamina" />
+        <input type="radio" id="stamina" name="statButton" value="stamina" />
 
         <label for="strength">Strength</label>
-        <input type="radio" id="strength" name="strength" value="strength" />
+        <input type="radio" id="strength" name="statButton" value="strength" />
 
         <label for="dexterity">Dexterity</label>
-        <input type="radio" id="dexterity" name="dexterity" value="dexterity" />
+        <input type="radio" id="dexterity" name="statButton" value="dexterity" />
 
         <label for="intelligence">Intelligence</label>
-        <input type="radio" id="intelligence" name="intelligence" value="intelligence" />
+        <input type="radio" id="intelligence" name="statButton" value="intelligence" />
 
         <label for="wisdom">Wisdom</label>
-        <input type="radio" id="wisdom" name="wisdom" value="wisdom" />
+        <input type="radio" id="wisdom" name="statButton" value="wisdom" />
         
         <ul>
           <li>Item 1</li>
