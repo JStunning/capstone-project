@@ -1,10 +1,10 @@
 import React from "react";
 
-function ItemList() {
+function SearchItemList() {
   return (
     <React.Fragment>
-      <div className='ItemList'>
-        <h2>Item List</h2>
+      <div className='SearchItemList'>
+        <h2>Search Item List</h2>
         <ul>
           <li>Item 1</li>
           <li>Item 2</li>
@@ -15,4 +15,4 @@ function ItemList() {
   )
 }
 
-export default ItemList;
+export default SearchItemList;
