@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import PropTypes from "prop-types";
 
 function newElement (type, attributes) {
   const el = document.createElement(type);
@@ -10,8 +11,9 @@ function newElement (type, attributes) {
   return el;
 }
 
-// const containerDiv = document.querySelector('.container');
-// const card = newElement('div', {class: 'card'})
-// containerDiv.appendChild(card)
+newElement.PropTypes = {
+  type: PropTypes.string,
+  attributes: PropTypes.object
+}
 
 export default newElement;

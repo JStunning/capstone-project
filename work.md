@@ -6,3 +6,5 @@
 10:00 Snack break
 10:15 Add radio buttons
 10:20 Researching web scraping
+11:20 Styling where everything goes
+11:30 Working on NewElement function
