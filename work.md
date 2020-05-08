@@ -4,3 +4,5 @@
 9:00 Building code structure
 9:30 Researching Web scraping
 10:00 Snack break
+10:15 Add radio buttons
+10:20 Researching web scraping
