@@ -5,14 +5,36 @@ body {
 .Header {
   background-color: blue;
   margin: 0;
-  padding: 0.5%;
+  padding: 0;
   position: fixed;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Header h2 {
+  margin: 0;
+  padding: 0;
+  flex-grow: 100;
+}
+
+.Header ul {
+  float: right;
+  display: flex;
+  margin: 0 5% 0 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.Header li {
+  list-style: none;
+  margin: 10%;
+  justify-self: right;
 }
 
 .container {
   display: flex;
   background-color: orange;
-  padding-top: 10%;
+  padding-top: 5%;
 }
