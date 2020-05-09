@@ -15,6 +15,7 @@ function UserItemList() {
             <p>Wrist slot</p>
           </div>
           <div id='BottomUserItems'>
+            <img src='../images/Equipment-page.png' alt='equipment page'></img>
             <p>Main-hand slot</p>
             <p>Off-hand slot</p>
           </div>
