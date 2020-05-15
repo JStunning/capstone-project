@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import ItemListControl from './ItemListControl'
 import StatCalculator from './StatCalculator'
+import BulbasaurScraper from './BulbasaurScraper'
 
 
 let state = {
@@ -31,6 +32,7 @@ function App() {
       <div className="container" style={onRadioButtonChangeHandler()}>
         <ItemListControl colorChanger={onRadioButtonChangeHandler}/>
         <StatCalculator />
+        <BulbasaurScraper />
       </div>
     </>
   );

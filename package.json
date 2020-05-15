@@ -8,6 +8,8 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^7.8.0",
+    "puppeteer": "^3.0.4",
+    "puppeteer-core": "^3.0.4",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -19,7 +21,8 @@
     "redux": "^4.0.5",
     "redux-firestore": "^0.12.0",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^9.10.12"
+    "sweetalert2": "^9.10.12",
+    "update": "^0.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
