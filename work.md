@@ -33,7 +33,16 @@
 12:00 Lunch time
 1:00 Back, work on armor scraper 
 1:30 Not getting data correctly in armor scraper still
- 
+2:00 Got weapons scraper to write file with all weapons
+2:30 Getting working data from armor scraper :D
+3:10 Got data to scrape BIS(best in slot) items for a specific class
+3:15 BIS sections on the wiki are written by different people so DOM values aren't the same so I have to write seperate scrapers for each class
+3:30 ^ Actually can maybe do it with different values
+3:45 Can do it with different values, now doing for all classes
+4:00 Getting correct data for all classes
+4:35 Made git repo for my webscraper portion and pushed to it
+4:50 Watch youtube videos on webscraping
+
 
 
 
