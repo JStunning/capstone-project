@@ -29,6 +29,11 @@
 10:00 Refactor weapons scrapers into one scraper
 10:30 Refactor successful, Gonna do it to the armor scraper now
 11:00 Still reafactoring armor scraper
+11:30 Researching web scraping while refactoring still
+12:00 Lunch time
+1:00 Back, work on armor scraper 
+1:30 Not getting data correctly in armor scraper still
+ 
 
 
 
