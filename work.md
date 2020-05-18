@@ -1,4 +1,4 @@
-5/8
+## 5/8
 8:15 Wake up and Setup
 8:30 Push BoilerPlate code
 8:40 Researching react navlinks
@@ -18,7 +18,7 @@
 3:15 Still working on it, feel like I am so close
 3:50 Working on About page because buttons are not working right and don't want to spend all day on them
 
-5/15
+## 5/15
 8:15 Wake up and setup
 8:20 Add webscraper as seperate folder to capstone
 8:25 Can't commit my webscraper to github, files too big
@@ -43,6 +43,15 @@
 4:35 Made git repo for my webscraper portion and pushed to it
 4:50 Watch youtube videos on webscraping
 
-
-
-
+## 5/18
+8:15 Wake up and setup
+8:20 Learning some mongobd so I can push my webscraper data to it
+9:45 Doing mongodb tutorial
+10:30 Testing database with PostMan
+10:50 Break for a bit, still doing tutorial
+11:30 Messing around with mongo doing tutorial
+12:00 Lunch time
+1:00 back from lunch doing mongodb
+1:30 still doing mongodb, it's a mongodb day
+2:30 Mongodb works on postman and console just not displaying to browser
+2:55 MongoDB crud app is fully functional time to make it work with our webscraper and client but first break time
