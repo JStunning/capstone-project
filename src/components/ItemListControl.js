@@ -1,21 +1,14 @@
 import React from "react";
-import PropTypes from "prop-types";
-import SearchItemList from './SearchItemList';
+import StatCalculator from './StatCalculator';
 import UserItemList from './UserItemList';
 
 class ItemListControl extends React.Component {
-  constructor(props){
-    super(props)
-
-  }
-
 
   setVisibleComponent = () => {
-    console.log("ItemListControl props", this.props);
     return (
       <div className='ItemLists'>
-        <SearchItemList colorChanger={this.props.colorChanger}/>
         <UserItemList />
+        <StatCalculator />
       </div>
     )
   }
@@ -28,9 +21,5 @@ class ItemListControl extends React.Component {
     )
   }
 }
-
-ItemListControl.propTypes = {
-  colorChanger: PropTypes.func
-};
 
 export default ItemListControl

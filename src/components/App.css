@@ -7,14 +7,14 @@ body {
   margin: 0;
   padding: 0;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
 .Header h2 {
-  margin: 0;
+  margin: 0 0 0 18%;
   padding: 0;
   flex-grow: 100;
 }
@@ -38,15 +38,15 @@ body {
   background-color: orange;
   justify-content: center;
   align-content: center;
-  padding: 3% 5px 1.4% 5px;
-  flex-direction: column;
-  background: azure;
+  padding: 3% 5px 2.6% 5px;
+  flex-direction: row;
+  /* background: azure; */
 }
 
 .container .SearchItemList {
   margin: 0 0 0 5%;
   background-color: blue;
-  height: 550px;
+  padding-right: 5%;
 }
 
 .container .UserItemList {
@@ -66,22 +66,19 @@ body {
 }
 
 .container .StatCalculator div{
-  margin: 0 8% 0 8%;
+  margin: 0 4% 0 4%;
 }
 
 .ItemLists {
   background-color: blueviolet;
   display: flex;
-}
-
-.ItemLists .SearchItemList {
-  flex-grow: 5;
+  flex-direction: column;
+  width: 40vw;
 }
 
 .ItemLists .UserItemList {
   margin: 0 5% 0 5%;
   background-color: blue;
-  flex-grow: 10;
 }
 
 #AllUserItems {
@@ -102,7 +99,7 @@ body {
 }
 
 .StatCalculator li {
-  margin: 0 8% 0 8%;
+  margin: 0 1% 0 1%;
   list-style: none;
 }
 
@@ -111,10 +108,10 @@ body {
 }
 
 .SearchListResults {
-  width: 475px;
-  height: 300px;
+  width: 40vw;
+  height: 70vh;
   background-color: chartreuse;
-  margin: 10% 0 0 20%;
+  margin: 7%;
 }
 
 .SearchListResults ul {
