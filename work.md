@@ -68,3 +68,5 @@
 9:15 populate mongodb with webscraped data, mini celebration break :D
 9:25 mini standup
 9:50 stand up end
+10:20 Changed how app looked with css
+
