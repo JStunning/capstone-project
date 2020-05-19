@@ -73,5 +73,6 @@
 12:00 Lunch time
 1:00 back working on front end stuff
 2:30 trying to use mongodb data in the front end
-3:20 working on scc and data from db
+3:20 working on styling and getting data from db
+4:10 getting data on the front end from mongodb :D
 

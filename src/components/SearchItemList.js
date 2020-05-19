@@ -1,7 +1,6 @@
 import React from "react";
 
 function SearchItemList(props) {
-  console.log("SearchItemList props",props)
   return (
     <React.Fragment>
       <div className='SearchItemList'>
