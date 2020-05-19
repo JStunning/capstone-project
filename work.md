@@ -65,3 +65,6 @@
 
 ## 5/19
 8:15 wake up and  set up
+9:15 populate mongodb with webscraped data, mini celebration break :D
+9:25 mini standup
+9:50 stand up end
