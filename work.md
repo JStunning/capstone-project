@@ -72,4 +72,6 @@
 10:50 watching some youtube tutorials
 12:00 Lunch time
 1:00 back working on front end stuff
+2:30 trying to use mongodb data in the front end
+3:20 working on scc and data from db
 

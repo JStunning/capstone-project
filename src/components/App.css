@@ -34,18 +34,23 @@ body {
 }
 
 .container {
-  display: flex;
   background-color: black;
-  justify-content: center;
-  align-content: center;
   padding: 3% 5px 1.75% 5px;
-  flex-direction: row;
-  /* background: azure; */
 }
 
 .container .SearchItemList {
   background-color: blue;
-  padding-right: 5%;
+  margin-left: 4%;
+  width: 38vw;
+  height: 86vh;
+}
+
+.container .SearchItemList h2 {
+  margin-left: 15%;
+}
+
+.container .SearchItemList h2 {
+  margin-left: 15%;
 }
 
 .container .UserItemList {
@@ -54,13 +59,12 @@ body {
 }
 .container .UserItemList li {
   text-align: left;
-  margin-top: 2%;
 }
 
 .container .StatCalculator {
-  margin: 2% 5% 0 5%;
+  margin: 1.5% 2% 0 2%;
   background-color: blue;
-  height: 300px;
+  height: 30vh;
 }
 
 .container .StatCalculator div{
@@ -69,27 +73,42 @@ body {
 
 .ItemLists {
   background-color: blueviolet;
-  display: flex;
-  flex-direction: column;
-  width: 40vw;
+  width: 80vw;
+  display: grid;
+  margin: 0 10% 0 10%;
+  grid-template-columns: 1fr 1fr;
+}
+
+#left-box{
 }
 
 .ItemLists .UserItemList {
-  margin: 0 5% 0 5%;
+  margin: 0 2% 0 2%;
   background-color: blue;
+  overflow: auto
+}
+
+.ItemLists .UserItemList h2 {
+  margin: 0;
+  padding: 2% 0 0 0;
+}
+
+.ItemLists .UserItemList p {
+  margin: 0;
+  padding: 0;
 }
 
 #AllUserItems {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+  margin: 0;
+  padding: 0;
 }
 
-#LeftUserItems p {
-  padding: 5%;
-}
-
-#RightUserItems p {
-  padding: 5% 0 0 10%;
+#BottomUserItems {
+  margin-top: 101%;
+  display: flex;
+  text-align: center;
 }
 
 .StatCalculator ul {
@@ -106,7 +125,7 @@ body {
 }
 
 .SearchListResults {
-  width: 40vw;
+  width: 20vw;
   height: 70vh;
   background-color: blanchedalmond;
   margin: 7%;
@@ -118,5 +137,5 @@ body {
 }
 
 .SearchListResults li {
-  margin: 10%;
+  margin: 5% 0 10% 0;
 }
