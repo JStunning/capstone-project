@@ -61,3 +61,7 @@
 4:00 working on mongo in webscraper
 4:45 Standup
 5:00 Done?
+7:30 - 9 got webscraper to put things in mongodb
+
+## 5/19
+8:15 wake up and  set up
