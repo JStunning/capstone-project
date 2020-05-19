@@ -38,7 +38,7 @@ body {
   background-color: black;
   justify-content: center;
   align-content: center;
-  padding: 3% 5px 1.8% 5px;
+  padding: 3% 5px 1.75% 5px;
   flex-direction: row;
   /* background: azure; */
 }
@@ -110,12 +110,13 @@ body {
   height: 70vh;
   background-color: blanchedalmond;
   margin: 7%;
+  overflow: auto
 }
 
 .SearchListResults ul {
-  padding-top: 5%;
+  padding-top: 1%;
 }
 
 .SearchListResults li {
-  margin: 5%;
+  margin: 10%;
 }

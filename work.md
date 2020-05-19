@@ -69,4 +69,7 @@
 9:25 mini standup
 9:50 stand up end
 10:20 Changed how app looked with css
+10:50 watching some youtube tutorials
+12:00 Lunch time
+1:00 back working on front end stuff
 
