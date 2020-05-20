@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function SearchItemList(props) {
-  console.log("SearchItemList props ", props.itemList[0])
   return (
     <React.Fragment>
       <div className='SearchItemList'>
@@ -25,21 +24,9 @@ function SearchItemList(props) {
         
         <div className='SearchListResults'>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+          {/* {props.itemList.map((item) => 
+            <li>{item}</li>
+          )} */}
           </ul>
         </div>
       </div>

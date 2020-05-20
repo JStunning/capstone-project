@@ -1,6 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function UserItemList() {
+function UserItemList(props) {
+  //let num = 0;
+  function handleClick(e) {
+    e.preventDefault();
+    props.filterList(0);
+  }
   return (
     <React.Fragment>
       <div className='UserItemList'>
@@ -8,7 +14,7 @@ function UserItemList() {
         <div id='AllUserItems'>
         <div id='LeftUserItems'>
             <p>Head slot</p>
-            <img src={require('../images/inventoryslot_head.jpg')} alt="head slot" />
+            <img src={require('../images/inventoryslot_head.jpg')} alt="head slot" value="0" onClick={handleClick} />
             <p>Neck slot</p>
             <img src={require('../images/inventoryslot_neck.jpg')} alt="neck slot" />
             <p>Shoulder slot</p>
@@ -51,5 +57,10 @@ function UserItemList() {
     </React.Fragment>
   )
 }
+
+UserItemList.propTypes = {
+  filterList: PropTypes.func
+};
+
 
 export default UserItemList;
