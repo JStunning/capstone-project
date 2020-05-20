@@ -4,9 +4,9 @@ function Header() {
   return (
     <React.Fragment>
       <div className='Header'>
-        <h2>Header</h2>
+        <img src={require('../images/logo.png')} alt="logo" id="logo" />
+        <h2></h2>
         <ul>
-          <li>Home</li>
           <li>About</li>
         </ul>
       </div>

@@ -2,13 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function SearchItemList(props) {
+  let background = {backgroundColor: "blanchedalmond"}
+  function handleClick(e) {
+    e.preventDefault();
+    background = {backgroundColor: "black"}
+  }
+  console.log("props itemlist", props.itemList)
   return (
     <React.Fragment>
       <div className='SearchItemList'>
-        <h2>Search Item List</h2>
+        <img src={require('../images/search-item-list.png')} alt="search-title" id="sil-img" style={{width: '12vw', marginTop: '1%'}} /><br />
 
         <label>Stamina</label>
-        <input type="radio" id="stamina" name="statButton" value="purple" />
+        <input type="radio" id="stamina" name="statButton" value="purple" onClick={handleClick}/>
 
         <label>Strength</label>
         <input type="radio" id="strength" name="statButton" value="red" />
@@ -22,11 +28,12 @@ function SearchItemList(props) {
         <label>Wisdom</label>
         <input type="radio" id="wisdom" name="statButton" value="yellow" />
         
-        <div className='SearchListResults'>
+        <div className='SearchListResults' style={background}>
           <ul>
           {/* {props.itemList.map((item) => 
             <li>{item}</li>
           )} */}
+          <li>{props.itemList}</li>
           </ul>
         </div>
       </div>

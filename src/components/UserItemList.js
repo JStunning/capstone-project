@@ -5,18 +5,20 @@ function UserItemList(props) {
   //let num = 0;
   function handleClick(e) {
     e.preventDefault();
-    props.filterList(0);
+    let arg = e.target.getAttribute('value');
+    console.log(arg)
+    props.filterList(arg);
   }
   return (
     <React.Fragment>
       <div className='UserItemList'>
-        <h2>User Item List</h2><br />
+      <img src={require('../images//user-item-list.png')} alt="user-title" id="uil-img" style={{width: '10vw', marginTop: '1%'}} />
         <div id='AllUserItems'>
         <div id='LeftUserItems'>
             <p>Head slot</p>
             <img src={require('../images/inventoryslot_head.jpg')} alt="head slot" value="0" onClick={handleClick} />
             <p>Neck slot</p>
-            <img src={require('../images/inventoryslot_neck.jpg')} alt="neck slot" />
+            <img src={require('../images/inventoryslot_neck.jpg')} alt="neck slot" value="1" onClick={handleClick} />
             <p>Shoulder slot</p>
             <img src={require('../images/inventoryslot_shoulder.jpg')} alt="shoulder slot" />
             <p>Back slot</p>

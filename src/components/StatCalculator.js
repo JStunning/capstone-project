@@ -4,7 +4,7 @@ function StatCalculator() {
   return (
     <React.Fragment>
       <div className='StatCalculator'>
-        <h2>Stat Calculator</h2>
+      <img src={require('../images/stat-calculator.png')} alt="search-title" id="sc-img" style={{width: '12vw', marginTop: '1%'}} />
         <ul>
           <div>
             <li>Stamina</li>

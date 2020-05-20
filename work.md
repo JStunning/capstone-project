@@ -78,4 +78,8 @@
 
 ## 5/20
 8:15 wake up and set up
+9:00 working on filtering db items and setting them correctly
+9:30 still working on filtering and such probably gonna be a while
+10:30 working on filtering but mostly css now
+11:15 Can get data from one component to another
 

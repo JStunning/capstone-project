@@ -10,7 +10,7 @@ class ItemListControl extends React.Component {
 
     this.state = {
       items: [],
-      filteredItems: {items: this.items}
+      filteredItems: [{_id: "5ec40420e97f22416034511a", title: "Wands", items: ["hey","hello"]}]
     };
   }
 

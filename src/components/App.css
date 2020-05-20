@@ -3,20 +3,24 @@ body {
 }
 
 .Header {
-  background-color: red;
+  background-color: rgba(125, 50, 50, 0.7);
   margin: 0;
-  padding: 0;
+  padding: 0.5%;
   position: fixed;
   width: 100vw;
   text-align: center;
   display: flex;
   justify-content: center;
+  border-bottom: 4px solid rgba(225, 225, 0, 0.8);
 }
 
 .Header h2 {
-  margin: 0 0 0 16.5%;
+  margin: 0 0 0 8%;
   padding: 0;
   flex-grow: 100;
+  color: gold;
+  background-color: rgba(125, 50, 50, 0.01);
+  text-shadow: 3px 3px #000000;
 }
 
 .Header ul {
@@ -33,13 +37,23 @@ body {
   justify-self: right;
 }
 
+#logo {
+  width: 350px;
+  height: 40px;
+  position: fixed;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
 .container {
-  background-color: black;
-  padding: 3.2% 5px 1.75% 5px;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b150a7b-3b18-425b-bca6-cb29429e215a/d9r8kp4-339eaf59-589a-45c3-9492-8d4a5c7aaa6f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82YjE1MGE3Yi0zYjE4LTQyNWItYmNhNi1jYjI5NDI5ZTIxNWEvZDlyOGtwNC0zMzllYWY1OS01ODlhLTQ1YzMtOTQ5Mi04ZDRhNWM3YWFhNmYuanBnIn1dXX0.QMxziSpFmTrTjvPd7oDybF4N0KXJJRMr6qugKampqKY');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding: 4% 5px 1.4% 5px;
 }
 
 .container .SearchItemList {
-  background-color: blue;
+  background-color: blueviolet;
   margin-left: 4%;
   width: 38vw;
   height: 86vh;
@@ -54,7 +68,7 @@ body {
 }
 
 .container .UserItemList {
-  background-color: blue;
+  background-color: blueviolet;
   height: 58.2vh;
 }
 .container .UserItemList li {
@@ -63,7 +77,7 @@ body {
 
 .container .StatCalculator {
   margin: 1.5% 2% 0 2%;
-  background-color: blue;
+  background-color: blueviolet;
   height: 30vh;
 }
 
@@ -72,7 +86,7 @@ body {
 }
 
 .ItemLists {
-  background-color: blueviolet;
+  background-color: rgba(100, 25, 25, 0.5);
   width: 80vw;
   display: grid;
   margin: 0 10% 0 10%;
@@ -86,7 +100,7 @@ body {
 
 .ItemLists .UserItemList {
   margin: 0 2% 0 2%;
-  background-color: blue;
+  background-color: blueviolet;
   overflow: auto
 }
 
@@ -128,7 +142,7 @@ body {
 
 .SearchListResults {
   width: 33vw;
-  height: 70vh;
+  height: 67vh;
   background-color: blanchedalmond;
   margin: 7%;
   overflow: auto
