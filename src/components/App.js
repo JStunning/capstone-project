@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import SearchItemList from './SearchItemList';
-import UserItemList from './UserItemList';
-import StatCalculator from './StatCalculator'
+import ItemListControl from './ItemListControl'
+import About from './About'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    <Router>
+      <Header />
       <div className="container">
-        <Header />
-        <SearchItemList />
-        <UserItemList />
-        <StatCalculator />
+        <Route path="/" component={ItemListControl} />
+        <Route path="/about" component={About} />
       </div>
-    </>
+    </Router>
   );
 }
 

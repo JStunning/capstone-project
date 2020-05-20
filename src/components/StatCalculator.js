@@ -4,13 +4,28 @@ function StatCalculator() {
   return (
     <React.Fragment>
       <div className='StatCalculator'>
-        <h2>Stat Calculator</h2>
+      <img src={require('../images/stat-calculator.png')} alt="search-title" id="sc-img" style={{width: '12vw', marginTop: '1%'}} />
         <ul>
-          <li>Stamina</li>
-          <li>Strength</li>
-          <li>Dexterity</li>
-          <li>Intelligence</li>
-          <li>Wisdom</li>
+          <div>
+            <li>Stamina</li>
+            <p>numbers</p>
+          </div>
+          <div>
+            <li>Strength</li>
+            <p>numbers</p>
+          </div>
+          <div>
+            <li>Dexterity</li>
+            <p>numbers</p>
+          </div>
+          <div>
+            <li>Intelligence</li>
+            <p>numbers</p>
+          </div>
+          <div>
+            <li>Wisdom</li>
+            <p>numbers</p>
+          </div>
         </ul>
       </div>
     </React.Fragment>

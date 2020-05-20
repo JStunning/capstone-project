@@ -69,4 +69,23 @@
 9:25 mini standup
 9:50 stand up end
 10:20 Changed how app looked with css
+10:50 watching some youtube tutorials
+12:00 Lunch time
+1:00 back working on front end stuff
+2:30 trying to use mongodb data in the front end
+3:20 working on styling and getting data from db
+4:10 getting data on the front end from mongodb :D
 
+## 5/20
+8:15 wake up and set up
+9:00 working on filtering db items and setting them correctly
+9:30 still working on filtering and such probably gonna be a while
+10:30 working on filtering but mostly css now
+11:15 Can get data from one component to another
+12:00 Lunch Time
+<!-- user item list handle click function needs to have changable numbers to get different data -->
+<!-- search item list needs to get data on mount or  -->
+1:00 back at it
+1:30 watching some youtube tutorial
+2:00 working on mongodb
+2:50 All buttons show data 
