@@ -8,7 +8,7 @@
 
 _React app that scrapes a video game wiki and returns the data in a nice a neat way that the user can use. This will be a web app. It will scrape stats for items so people can see which items havethe best stats for their current character/build. People can add items scraped to list andit will calculate the stats. _
 
-_Component Diagram: https://app.diagrams.net/#G1xRglRehHah8jzI1t-kwfpa1WV5Vx6nlT_
+_Component Diagram: ![](./src/images/componentTree.png)_
 
 ## Setup/Installation Requirements
 
