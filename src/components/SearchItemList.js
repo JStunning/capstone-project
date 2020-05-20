@@ -1,6 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function SearchItemList(props) {
+  console.log("SearchItemList props ", props.itemList[0])
   return (
     <React.Fragment>
       <div className='SearchItemList'>
@@ -44,5 +46,9 @@ function SearchItemList(props) {
     </React.Fragment>
   )
 }
+
+SearchItemList.propTypes = {
+  itemList: PropTypes.array
+};
 
 export default SearchItemList;

@@ -35,7 +35,7 @@ body {
 
 .container {
   background-color: black;
-  padding: 3% 5px 1.75% 5px;
+  padding: 3.2% 5px 1.75% 5px;
 }
 
 .container .SearchItemList {
@@ -79,6 +79,11 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.ItemLists img {
+  width: 35px;
+  height: 35px;
+}
+
 .ItemLists .UserItemList {
   margin: 0 2% 0 2%;
   background-color: blue;
@@ -87,7 +92,7 @@ body {
 
 .ItemLists .UserItemList h2 {
   margin: 0;
-  padding: 2% 0 0 0;
+  padding: 1% 0 0 0;
 }
 
 .ItemLists .UserItemList p {

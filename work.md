@@ -76,3 +76,6 @@
 3:20 working on styling and getting data from db
 4:10 getting data on the front end from mongodb :D
 
+## 5/20
+8:15 wake up and set up
+
