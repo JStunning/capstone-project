@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function SearchItemList(props) {
-  let background = {backgroundColor: "blanchedalmond"}
+  // let background = {backgroundColor: "rgba(50, 30, 30, 0.9)"}
   function handleClick(e) {
     e.preventDefault();
-    background = {backgroundColor: "black"}
+    // background = {backgroundColor: "black"}
   }
   console.log("props itemlist", props.itemList)
   return (
@@ -28,7 +28,7 @@ function SearchItemList(props) {
         <label>Wisdom</label>
         <input type="radio" id="wisdom" name="statButton" value="yellow" />
         
-        <div className='SearchListResults' style={background}>
+        <div className='SearchListResults'>
           <ul>
           {/* {props.itemList.map((item) => 
             <li>{item}</li>

@@ -82,4 +82,10 @@
 9:30 still working on filtering and such probably gonna be a while
 10:30 working on filtering but mostly css now
 11:15 Can get data from one component to another
-
+12:00 Lunch Time
+<!-- user item list handle click function needs to have changable numbers to get different data -->
+<!-- search item list needs to get data on mount or  -->
+1:00 back at it
+1:30 watching some youtube tutorial
+2:00 working on mongodb
+2:50 All buttons show data 
